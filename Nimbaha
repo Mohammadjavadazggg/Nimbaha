@@ -1,6 +1,276 @@
-vless://167ca911-f3a5-4f2b-b7d0-d4bad20aff0d@www.s7r.ir:443?path=%2Fwp-admin&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&fp=firefox&type=ws&sni=www.s7r.ir#%E1%B4%98%E1%B4%8F%CA%9F%E1%B4%80%C9%B4%E1%B4%85%20%F0%9F%87%B5%F0%9F%87%B1%20%7C%20%D9%BE%D8%B1%D8%B3%D8%B1%D8%B9%D8%AA
-vless://aVmrLhBu@185.143.235.210:80?path=%2Ftelegram-mitivpn&security=&encryption=none&host=webmail.link.getasa.ir&type=ws#%E1%B4%87%EA%9C%B1%E1%B4%9B%E1%B4%8F%C9%B4%C9%AA%E1%B4%80%20%F0%9F%87%AA%F0%9F%87%AA%20%7C%20%D9%86%DB%8C%D9%85%20%D8%A8%D9%87%D8%A7
-vless://aVmrLhBu@s7r.ir:443?path=%2FTeleGraM-MiTiVPN&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=dash.s7r.ir&fp=chrome&type=ws&sni=s7r.ir#%C9%A2%E1%B4%87%CA%80%E1%B4%8D%E1%B4%80%C9%B4%CA%8F%20%F0%9F%87%A9%F0%9F%87%AA
-vless://675537c4-5916-446f-b90d-15f64f3ccf67@s7r.ir:443?path=%2Fwp-admin&security=tls&alpn=http%2F1.1&encryption=none&host=mail.s7r.ir&fp=chrome&type=ws&sni=s7r.ir#%C9%A2%E1%B4%87%CA%80%E1%B4%8D%E1%B4%80%C9%B4%CA%8F%20%F0%9F%87%A9%F0%9F%87%AA%20%7C%20%D9%BE%D8%B1%D8%B3%D8%B1%D8%B9%D8%AA
-vless://aVmrLhBu@185.143.235.210:80?path=%2Ftelegram-mitivpn&security=&encryption=none&host=cpanel.link.getasa.ir&type=ws#%C9%A2%E1%B4%87%CA%80%E1%B4%8D%E1%B4%80%C9%B4%CA%8F%20%F0%9F%87%A9%F0%9F%87%AA%20%7C%20%D9%86%DB%8C%D9%85%20%D8%A8%D9%87%D8%A7
-vless://aVmrLhBu@185.143.235.210:80?path=%2Ftelegram-mitivpn&security=&encryption=none&host=admin.link.getasa.ir&type=ws#%E1%B4%98%E1%B4%8F%CA%9F%E1%B4%80%C9%B4%E1%B4%85%20%F0%9F%87%B5%F0%9F%87%B1%20%7C%20%D9%86%DB%8C%D9%85%20%D8%A8%D9%87%D8%A7
+vless://aVmrLhBu@185.143.235.210:80?path=%2Ftelegram-mitivpn&security=&encryption=none&host=admin.panel.getasa.ir&type=ws#%E1%B4%98%E1%B4%8F%CA%9F%E1%B4%80%C9%B4%E1%B4%85%20%F0%9F%87%B5%F0%9F%87%B1%20%7C%20%D9%86%DB%8C%D9%85%20%D8%A8%D9%87%D8%A7
+vless://aVmrLhBu@ne.tak30zanjan.ir:443?path=%2F28557%2Froot&security=tls&encryption=none&host=ne.tak30zanjan.ir&fp=chrome&type=ws#%D9%87%D9%84%D9%86%D8%AF%20%F0%9F%87%B3%F0%9F%87%B1
+vless://aVmrLhBu@185.143.235.210:80?path=%2Ftelegram-mitivpn&security=&encryption=none&host=webmail.panel.getasa.ir&type=ws#%E1%B4%87%EA%9C%B1%E1%B4%9B%E1%B4%8F%C9%B4%C9%AA%E1%B4%80%20%F0%9F%87%AA%F0%9F%87%AA%20%7C%20%D9%86%DB%8C%D9%85%20%D8%A8%D9%87%D8%A7
+{
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com",
+      "dns.alidns.com": [
+        "223.5.5.5",
+        "223.6.6.6",
+        "2400:3200::1",
+        "2400:3200:baba::1"
+      ],
+      "one.one.one.one": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ],
+      "dot.pub": [
+        "1.12.12.12",
+        "120.53.53.53"
+      ],
+      "dns.google": [
+        "8.8.8.8",
+        "8.8.4.4",
+        "2001:4860:4860::8888",
+        "2001:4860:4860::8844"
+      ],
+      "dns.quad9.net": [
+        "9.9.9.9",
+        "149.112.112.112",
+        "2620:fe::fe",
+        "2620:fe::9"
+      ],
+      "common.dot.dns.yandex.net": [
+        "77.88.8.8",
+        "77.88.8.1",
+        "2a02:6b8::feed:0ff",
+        "2a02:6b8:0:1::feed:0ff"
+      ]
+    },
+    "servers": [
+      "1.1.1.1",
+      {
+        "address": "1.1.1.1",
+        "domains": [
+          "domain:googleapis.cn",
+          "domain:gstatic.com"
+        ]
+      },
+      {
+        "address": "223.5.5.5",
+        "domains": [
+          "domain:alidns.com",
+          "domain:doh.pub",
+          "domain:dot.pub",
+          "domain:360.cn",
+          "domain:onedns.net",
+          "geosite:cn"
+        ],
+        "expectIPs": [
+          "geoip:cn"
+        ],
+        "skipFallback": true
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true,
+        "routeOnly": false
+      },
+      "tag": "socks"
+    }
+  ],
+  "log": {
+    "loglevel": "warning"
+  },
+  "outbounds": [
+    {
+      "mux": {
+        "concurrency": 3,
+        "enabled": true,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": "reject"
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.143.235.210",
+            "port": 80,
+            "users": [
+              {
+                "encryption": "none",
+                "id": "aVmrLhBu",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "headers": {
+            "Host": "cpanel.panel.getasa.ir"
+          },
+          "path": "/telegram-mitivpn"
+        }
+      },
+      "tag": "proxy"
+    },
+    {
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      },
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    }
+  ],
+  "policy": {
+    "levels": {
+      "8": {
+        "connIdle": 300,
+        "downlinkOnly": 1,
+        "handshake": 4,
+        "uplinkOnly": 1
+      }
+    },
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
+  },
+  "remarks": "ɢᴇʀᴍᴀɴʏ 🇩🇪 | نیم بها",
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "ip": [
+          "1.1.1.1"
+        ],
+        "outboundTag": "proxy",
+        "port": "53",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "223.5.5.5"
+        ],
+        "outboundTag": "direct",
+        "port": "53",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "domain:googleapis.cn",
+          "domain:gstatic.com"
+        ],
+        "outboundTag": "proxy",
+        "type": "field"
+      },
+      {
+        "network": "udp",
+        "outboundTag": "block",
+        "port": "443",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "223.5.5.5",
+          "223.6.6.6",
+          "2400:3200::1",
+          "2400:3200:baba::1",
+          "119.29.29.29",
+          "1.12.12.12",
+          "120.53.53.53",
+          "2402:4e00::",
+          "2402:4e00:1::",
+          "180.76.76.76",
+          "2400:da00::6666",
+          "114.114.114.114",
+          "114.114.115.115",
+          "114.114.114.119",
+          "114.114.115.119",
+          "114.114.114.110",
+          "114.114.115.110",
+          "180.184.1.1",
+          "180.184.2.2",
+          "101.226.4.6",
+          "218.30.118.6",
+          "123.125.81.6",
+          "140.207.198.6",
+          "1.2.4.8",
+          "210.2.4.8",
+          "52.80.66.66",
+          "117.50.22.22",
+          "2400:7fc0:849e:200::4",
+          "2404:c2c0:85d8:901::4",
+          "117.50.10.10",
+          "52.80.52.52",
+          "2400:7fc0:849e:200::8",
+          "2404:c2c0:85d8:901::8",
+          "117.50.60.30",
+          "52.80.60.30"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "domain:alidns.com",
+          "domain:doh.pub",
+          "domain:dot.pub",
+          "domain:360.cn",
+          "domain:onedns.net"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:cn"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:cn"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      }
+    ]
+  },
+  "stats": {}
+}
